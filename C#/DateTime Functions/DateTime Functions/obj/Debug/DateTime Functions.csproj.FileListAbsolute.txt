@@ -1,0 +1,7 @@
+C:\Users\zevan\source\repos\DateTime Functions\DateTime Functions\bin\Debug\DateTime Functions.exe.config
+C:\Users\zevan\source\repos\DateTime Functions\DateTime Functions\bin\Debug\DateTime Functions.exe
+C:\Users\zevan\source\repos\DateTime Functions\DateTime Functions\bin\Debug\DateTime Functions.pdb
+C:\Users\zevan\source\repos\DateTime Functions\DateTime Functions\obj\Debug\DateTime Functions.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\DateTime Functions\DateTime Functions\obj\Debug\DateTime Functions.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\DateTime Functions\DateTime Functions\obj\Debug\DateTime Functions.exe
+C:\Users\zevan\source\repos\DateTime Functions\DateTime Functions\obj\Debug\DateTime Functions.pdb

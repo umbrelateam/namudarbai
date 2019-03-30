@@ -1,0 +1,7 @@
+C:\Users\Dominyk\source\repos\SubString\SubString\bin\Debug\SubString.exe.config
+C:\Users\Dominyk\source\repos\SubString\SubString\bin\Debug\SubString.exe
+C:\Users\Dominyk\source\repos\SubString\SubString\bin\Debug\SubString.pdb
+C:\Users\Dominyk\source\repos\SubString\SubString\obj\Debug\SubString.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\SubString\SubString\obj\Debug\SubString.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\SubString\SubString\obj\Debug\SubString.exe
+C:\Users\Dominyk\source\repos\SubString\SubString\obj\Debug\SubString.pdb

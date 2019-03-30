@@ -1,0 +1,7 @@
+C:\Users\zevan\source\repos\SubString Words\SubString Words\bin\Debug\SubString Words.exe.config
+C:\Users\zevan\source\repos\SubString Words\SubString Words\bin\Debug\SubString Words.exe
+C:\Users\zevan\source\repos\SubString Words\SubString Words\bin\Debug\SubString Words.pdb
+C:\Users\zevan\source\repos\SubString Words\SubString Words\obj\Debug\SubString Words.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\SubString Words\SubString Words\obj\Debug\SubString Words.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\SubString Words\SubString Words\obj\Debug\SubString Words.exe
+C:\Users\zevan\source\repos\SubString Words\SubString Words\obj\Debug\SubString Words.pdb

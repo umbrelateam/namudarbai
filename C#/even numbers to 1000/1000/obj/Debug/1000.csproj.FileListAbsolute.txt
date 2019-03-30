@@ -1,0 +1,14 @@
+C:\Users\zevan\source\repos\1000\1000\bin\Debug\1000.exe.config
+C:\Users\zevan\source\repos\1000\1000\bin\Debug\1000.exe
+C:\Users\zevan\source\repos\1000\1000\bin\Debug\1000.pdb
+C:\Users\zevan\source\repos\1000\1000\obj\Debug\1000.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\1000\1000\obj\Debug\1000.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\1000\1000\obj\Debug\1000.exe
+C:\Users\zevan\source\repos\1000\1000\obj\Debug\1000.pdb
+C:\Users\Dominyk\source\repos\1000\1000\bin\Debug\1000.exe.config
+C:\Users\Dominyk\source\repos\1000\1000\bin\Debug\1000.exe
+C:\Users\Dominyk\source\repos\1000\1000\bin\Debug\1000.pdb
+C:\Users\Dominyk\source\repos\1000\1000\obj\Debug\1000.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\1000\1000\obj\Debug\1000.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\1000\1000\obj\Debug\1000.exe
+C:\Users\Dominyk\source\repos\1000\1000\obj\Debug\1000.pdb

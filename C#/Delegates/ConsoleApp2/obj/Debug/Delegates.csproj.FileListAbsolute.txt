@@ -1,0 +1,4 @@
+C:\Users\Dominyk\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\Delegates.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\Dominyk\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.pdb

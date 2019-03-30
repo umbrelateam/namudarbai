@@ -1,0 +1,7 @@
+C:\Users\zevan\source\repos\SubString aCount\SubString aCount\bin\Debug\SubString aCount.exe.config
+C:\Users\zevan\source\repos\SubString aCount\SubString aCount\bin\Debug\SubString aCount.exe
+C:\Users\zevan\source\repos\SubString aCount\SubString aCount\bin\Debug\SubString aCount.pdb
+C:\Users\zevan\source\repos\SubString aCount\SubString aCount\obj\Debug\SubString aCount.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\SubString aCount\SubString aCount\obj\Debug\SubString aCount.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\SubString aCount\SubString aCount\obj\Debug\SubString aCount.exe
+C:\Users\zevan\source\repos\SubString aCount\SubString aCount\obj\Debug\SubString aCount.pdb

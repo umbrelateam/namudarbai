@@ -1,0 +1,14 @@
+C:\Users\zevan\source\repos\TryCatchFinally\TryCatchFinally\bin\Debug\TryCatchFinally.exe.config
+C:\Users\zevan\source\repos\TryCatchFinally\TryCatchFinally\bin\Debug\TryCatchFinally.exe
+C:\Users\zevan\source\repos\TryCatchFinally\TryCatchFinally\bin\Debug\TryCatchFinally.pdb
+C:\Users\zevan\source\repos\TryCatchFinally\TryCatchFinally\obj\Debug\TryCatchFinally.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\TryCatchFinally\TryCatchFinally\obj\Debug\TryCatchFinally.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\TryCatchFinally\TryCatchFinally\obj\Debug\TryCatchFinally.exe
+C:\Users\zevan\source\repos\TryCatchFinally\TryCatchFinally\obj\Debug\TryCatchFinally.pdb
+C:\Users\Dominyk\Desktop\repos\TryCatchFinally\TryCatchFinally\bin\Debug\TryCatchFinally.exe.config
+C:\Users\Dominyk\Desktop\repos\TryCatchFinally\TryCatchFinally\bin\Debug\TryCatchFinally.exe
+C:\Users\Dominyk\Desktop\repos\TryCatchFinally\TryCatchFinally\bin\Debug\TryCatchFinally.pdb
+C:\Users\Dominyk\Desktop\repos\TryCatchFinally\TryCatchFinally\obj\Debug\TryCatchFinally.csprojAssemblyReference.cache
+C:\Users\Dominyk\Desktop\repos\TryCatchFinally\TryCatchFinally\obj\Debug\TryCatchFinally.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\Desktop\repos\TryCatchFinally\TryCatchFinally\obj\Debug\TryCatchFinally.exe
+C:\Users\Dominyk\Desktop\repos\TryCatchFinally\TryCatchFinally\obj\Debug\TryCatchFinally.pdb

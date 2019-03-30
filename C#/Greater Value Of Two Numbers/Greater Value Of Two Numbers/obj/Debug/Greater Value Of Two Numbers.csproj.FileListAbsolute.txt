@@ -1,0 +1,7 @@
+C:\Users\zevan\source\repos\Greater Value Of Two Numbers\Greater Value Of Two Numbers\bin\Debug\Greater Value Of Two Numbers.exe.config
+C:\Users\zevan\source\repos\Greater Value Of Two Numbers\Greater Value Of Two Numbers\bin\Debug\Greater Value Of Two Numbers.exe
+C:\Users\zevan\source\repos\Greater Value Of Two Numbers\Greater Value Of Two Numbers\bin\Debug\Greater Value Of Two Numbers.pdb
+C:\Users\zevan\source\repos\Greater Value Of Two Numbers\Greater Value Of Two Numbers\obj\Debug\Greater Value Of Two Numbers.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\Greater Value Of Two Numbers\Greater Value Of Two Numbers\obj\Debug\Greater Value Of Two Numbers.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\Greater Value Of Two Numbers\Greater Value Of Two Numbers\obj\Debug\Greater Value Of Two Numbers.exe
+C:\Users\zevan\source\repos\Greater Value Of Two Numbers\Greater Value Of Two Numbers\obj\Debug\Greater Value Of Two Numbers.pdb

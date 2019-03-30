@@ -1,0 +1,7 @@
+C:\Users\zevan\source\repos\GenericsVsNonGenerics\GenericsVsNonGenerics\bin\Debug\GenericsVsNonGenerics.exe.config
+C:\Users\zevan\source\repos\GenericsVsNonGenerics\GenericsVsNonGenerics\bin\Debug\GenericsVsNonGenerics.exe
+C:\Users\zevan\source\repos\GenericsVsNonGenerics\GenericsVsNonGenerics\bin\Debug\GenericsVsNonGenerics.pdb
+C:\Users\zevan\source\repos\GenericsVsNonGenerics\GenericsVsNonGenerics\obj\Debug\GenericsVsNonGenerics.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\GenericsVsNonGenerics\GenericsVsNonGenerics\obj\Debug\GenericsVsNonGenerics.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\GenericsVsNonGenerics\GenericsVsNonGenerics\obj\Debug\GenericsVsNonGenerics.exe
+C:\Users\zevan\source\repos\GenericsVsNonGenerics\GenericsVsNonGenerics\obj\Debug\GenericsVsNonGenerics.pdb

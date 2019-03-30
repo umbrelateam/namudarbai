@@ -1,0 +1,7 @@
+C:\Users\zevan\source\repos\RegexMath\RegexMath\bin\Debug\RegexMath.exe.config
+C:\Users\zevan\source\repos\RegexMath\RegexMath\bin\Debug\RegexMath.exe
+C:\Users\zevan\source\repos\RegexMath\RegexMath\bin\Debug\RegexMath.pdb
+C:\Users\zevan\source\repos\RegexMath\RegexMath\obj\Debug\RegexMath.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\RegexMath\RegexMath\obj\Debug\RegexMath.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\RegexMath\RegexMath\obj\Debug\RegexMath.exe
+C:\Users\zevan\source\repos\RegexMath\RegexMath\obj\Debug\RegexMath.pdb

@@ -1,0 +1,14 @@
+C:\Users\zevan\source\repos\Numbers\Numbers\bin\Debug\Numbers.exe.config
+C:\Users\zevan\source\repos\Numbers\Numbers\bin\Debug\Numbers.exe
+C:\Users\zevan\source\repos\Numbers\Numbers\bin\Debug\Numbers.pdb
+C:\Users\zevan\source\repos\Numbers\Numbers\obj\Debug\Numbers.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\Numbers\Numbers\obj\Debug\Numbers.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\Numbers\Numbers\obj\Debug\Numbers.exe
+C:\Users\zevan\source\repos\Numbers\Numbers\obj\Debug\Numbers.pdb
+C:\Users\Dominyk\source\repos\Numbers\Numbers\bin\Debug\Numbers.exe.config
+C:\Users\Dominyk\source\repos\Numbers\Numbers\bin\Debug\Numbers.exe
+C:\Users\Dominyk\source\repos\Numbers\Numbers\bin\Debug\Numbers.pdb
+C:\Users\Dominyk\source\repos\Numbers\Numbers\obj\Debug\Numbers.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\Numbers\Numbers\obj\Debug\Numbers.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\Numbers\Numbers\obj\Debug\Numbers.exe
+C:\Users\Dominyk\source\repos\Numbers\Numbers\obj\Debug\Numbers.pdb

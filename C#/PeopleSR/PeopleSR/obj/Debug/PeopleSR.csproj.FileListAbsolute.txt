@@ -1,0 +1,14 @@
+C:\Users\zevan\source\repos\PeopleSR\PeopleSR\bin\Debug\PeopleSR.exe.config
+C:\Users\zevan\source\repos\PeopleSR\PeopleSR\bin\Debug\PeopleSR.exe
+C:\Users\zevan\source\repos\PeopleSR\PeopleSR\bin\Debug\PeopleSR.pdb
+C:\Users\zevan\source\repos\PeopleSR\PeopleSR\obj\Debug\PeopleSR.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\PeopleSR\PeopleSR\obj\Debug\PeopleSR.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\PeopleSR\PeopleSR\obj\Debug\PeopleSR.exe
+C:\Users\zevan\source\repos\PeopleSR\PeopleSR\obj\Debug\PeopleSR.pdb
+C:\Users\Dominyk\source\repos\PeopleSR\PeopleSR\bin\Debug\PeopleSR.exe.config
+C:\Users\Dominyk\source\repos\PeopleSR\PeopleSR\bin\Debug\PeopleSR.exe
+C:\Users\Dominyk\source\repos\PeopleSR\PeopleSR\bin\Debug\PeopleSR.pdb
+C:\Users\Dominyk\source\repos\PeopleSR\PeopleSR\obj\Debug\PeopleSR.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\PeopleSR\PeopleSR\obj\Debug\PeopleSR.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\PeopleSR\PeopleSR\obj\Debug\PeopleSR.exe
+C:\Users\Dominyk\source\repos\PeopleSR\PeopleSR\obj\Debug\PeopleSR.pdb

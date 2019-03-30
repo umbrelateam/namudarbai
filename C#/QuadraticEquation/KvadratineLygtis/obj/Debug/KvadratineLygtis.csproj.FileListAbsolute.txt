@@ -1,0 +1,14 @@
+C:\Users\zevan\source\repos\KvadratineLygtis\KvadratineLygtis\bin\Debug\KvadratineLygtis.exe.config
+C:\Users\zevan\source\repos\KvadratineLygtis\KvadratineLygtis\bin\Debug\KvadratineLygtis.exe
+C:\Users\zevan\source\repos\KvadratineLygtis\KvadratineLygtis\bin\Debug\KvadratineLygtis.pdb
+C:\Users\zevan\source\repos\KvadratineLygtis\KvadratineLygtis\obj\Debug\KvadratineLygtis.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\KvadratineLygtis\KvadratineLygtis\obj\Debug\KvadratineLygtis.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\KvadratineLygtis\KvadratineLygtis\obj\Debug\KvadratineLygtis.exe
+C:\Users\zevan\source\repos\KvadratineLygtis\KvadratineLygtis\obj\Debug\KvadratineLygtis.pdb
+C:\Users\Dominyk\source\repos\KvadratineLygtis\KvadratineLygtis\bin\Debug\KvadratineLygtis.exe.config
+C:\Users\Dominyk\source\repos\KvadratineLygtis\KvadratineLygtis\bin\Debug\KvadratineLygtis.exe
+C:\Users\Dominyk\source\repos\KvadratineLygtis\KvadratineLygtis\bin\Debug\KvadratineLygtis.pdb
+C:\Users\Dominyk\source\repos\KvadratineLygtis\KvadratineLygtis\obj\Debug\KvadratineLygtis.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\KvadratineLygtis\KvadratineLygtis\obj\Debug\KvadratineLygtis.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\KvadratineLygtis\KvadratineLygtis\obj\Debug\KvadratineLygtis.exe
+C:\Users\Dominyk\source\repos\KvadratineLygtis\KvadratineLygtis\obj\Debug\KvadratineLygtis.pdb

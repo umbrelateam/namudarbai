@@ -1,0 +1,14 @@
+C:\Users\zevan\source\repos\Bank\Bank\bin\Debug\Bank.exe.config
+C:\Users\zevan\source\repos\Bank\Bank\bin\Debug\Bank.exe
+C:\Users\zevan\source\repos\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\zevan\source\repos\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\Bank\Bank\obj\Debug\Bank.exe
+C:\Users\zevan\source\repos\Bank\Bank\obj\Debug\Bank.pdb
+C:\Users\Dominyk\source\repos\Bank\Bank\bin\Debug\Bank.exe.config
+C:\Users\Dominyk\source\repos\Bank\Bank\bin\Debug\Bank.exe
+C:\Users\Dominyk\source\repos\Bank\Bank\bin\Debug\Bank.pdb
+C:\Users\Dominyk\source\repos\Bank\Bank\obj\Debug\Bank.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\Bank\Bank\obj\Debug\Bank.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\Bank\Bank\obj\Debug\Bank.exe
+C:\Users\Dominyk\source\repos\Bank\Bank\obj\Debug\Bank.pdb

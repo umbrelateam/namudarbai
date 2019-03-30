@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Class Cat", "Class Cat\Class Cat.csproj", "{CAD43A1C-E030-4A66-95B3-7ECE68F0BBFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAD43A1C-E030-4A66-95B3-7ECE68F0BBFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD43A1C-E030-4A66-95B3-7ECE68F0BBFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD43A1C-E030-4A66-95B3-7ECE68F0BBFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD43A1C-E030-4A66-95B3-7ECE68F0BBFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D18ECCC-4AA5-4AAB-976B-2DFC79916C0F}
+	EndGlobalSection
+EndGlobal

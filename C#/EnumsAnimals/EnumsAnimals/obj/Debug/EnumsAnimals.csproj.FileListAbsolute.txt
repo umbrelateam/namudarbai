@@ -1,0 +1,14 @@
+C:\Users\zevan\source\repos\EnumsAnimals\EnumsAnimals\bin\Debug\EnumsAnimals.exe.config
+C:\Users\zevan\source\repos\EnumsAnimals\EnumsAnimals\bin\Debug\EnumsAnimals.exe
+C:\Users\zevan\source\repos\EnumsAnimals\EnumsAnimals\bin\Debug\EnumsAnimals.pdb
+C:\Users\zevan\source\repos\EnumsAnimals\EnumsAnimals\obj\Debug\EnumsAnimals.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\EnumsAnimals\EnumsAnimals\obj\Debug\EnumsAnimals.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\EnumsAnimals\EnumsAnimals\obj\Debug\EnumsAnimals.exe
+C:\Users\zevan\source\repos\EnumsAnimals\EnumsAnimals\obj\Debug\EnumsAnimals.pdb
+C:\Users\Dominyk\source\repos\EnumsAnimals\EnumsAnimals\bin\Debug\EnumsAnimals.exe.config
+C:\Users\Dominyk\source\repos\EnumsAnimals\EnumsAnimals\bin\Debug\EnumsAnimals.exe
+C:\Users\Dominyk\source\repos\EnumsAnimals\EnumsAnimals\bin\Debug\EnumsAnimals.pdb
+C:\Users\Dominyk\source\repos\EnumsAnimals\EnumsAnimals\obj\Debug\EnumsAnimals.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\EnumsAnimals\EnumsAnimals\obj\Debug\EnumsAnimals.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\EnumsAnimals\EnumsAnimals\obj\Debug\EnumsAnimals.exe
+C:\Users\Dominyk\source\repos\EnumsAnimals\EnumsAnimals\obj\Debug\EnumsAnimals.pdb

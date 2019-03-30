@@ -1,0 +1,14 @@
+C:\Users\zevan\source\repos\Words\Words\bin\Debug\Words.exe.config
+C:\Users\zevan\source\repos\Words\Words\bin\Debug\Words.exe
+C:\Users\zevan\source\repos\Words\Words\bin\Debug\Words.pdb
+C:\Users\zevan\source\repos\Words\Words\obj\Debug\Words.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\Words\Words\obj\Debug\Words.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\Words\Words\obj\Debug\Words.exe
+C:\Users\zevan\source\repos\Words\Words\obj\Debug\Words.pdb
+C:\Users\Dominyk\source\repos\Words\Words\bin\Debug\Words.exe.config
+C:\Users\Dominyk\source\repos\Words\Words\bin\Debug\Words.exe
+C:\Users\Dominyk\source\repos\Words\Words\bin\Debug\Words.pdb
+C:\Users\Dominyk\source\repos\Words\Words\obj\Debug\Words.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\Words\Words\obj\Debug\Words.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\Words\Words\obj\Debug\Words.exe
+C:\Users\Dominyk\source\repos\Words\Words\obj\Debug\Words.pdb

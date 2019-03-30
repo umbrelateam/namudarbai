@@ -1,0 +1,7 @@
+C:\Users\zevan\source\repos\PeopleSW\PeopleSW\bin\Debug\PeopleSW.exe.config
+C:\Users\zevan\source\repos\PeopleSW\PeopleSW\bin\Debug\PeopleSW.exe
+C:\Users\zevan\source\repos\PeopleSW\PeopleSW\bin\Debug\PeopleSW.pdb
+C:\Users\zevan\source\repos\PeopleSW\PeopleSW\obj\Debug\PeopleSW.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\PeopleSW\PeopleSW\obj\Debug\PeopleSW.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\PeopleSW\PeopleSW\obj\Debug\PeopleSW.exe
+C:\Users\zevan\source\repos\PeopleSW\PeopleSW\obj\Debug\PeopleSW.pdb

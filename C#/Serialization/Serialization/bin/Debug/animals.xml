@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<ArrayOfAnimal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Animal>
+    <Name>Elephant</Name>
+    <Weight>65</Weight>
+    <Height>29</Height>
+  </Animal>
+  <Animal>
+    <Name>Lion</Name>
+    <Weight>55</Weight>
+    <Height>28</Height>
+  </Animal>
+  <Animal>
+    <Name>Hippopotamus</Name>
+    <Weight>31</Weight>
+    <Height>23</Height>
+  </Animal>
+</ArrayOfAnimal>

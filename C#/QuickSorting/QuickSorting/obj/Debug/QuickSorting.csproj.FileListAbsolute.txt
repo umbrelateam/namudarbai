@@ -1,0 +1,14 @@
+C:\Users\zevan\source\repos\QuickSorting\QuickSorting\bin\Debug\QuickSorting.exe.config
+C:\Users\zevan\source\repos\QuickSorting\QuickSorting\bin\Debug\QuickSorting.exe
+C:\Users\zevan\source\repos\QuickSorting\QuickSorting\bin\Debug\QuickSorting.pdb
+C:\Users\zevan\source\repos\QuickSorting\QuickSorting\obj\Debug\QuickSorting.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\QuickSorting\QuickSorting\obj\Debug\QuickSorting.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\QuickSorting\QuickSorting\obj\Debug\QuickSorting.exe
+C:\Users\zevan\source\repos\QuickSorting\QuickSorting\obj\Debug\QuickSorting.pdb
+C:\Users\Dominyk\source\repos\QuickSorting\QuickSorting\bin\Debug\QuickSorting.exe.config
+C:\Users\Dominyk\source\repos\QuickSorting\QuickSorting\bin\Debug\QuickSorting.exe
+C:\Users\Dominyk\source\repos\QuickSorting\QuickSorting\bin\Debug\QuickSorting.pdb
+C:\Users\Dominyk\source\repos\QuickSorting\QuickSorting\obj\Debug\QuickSorting.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\QuickSorting\QuickSorting\obj\Debug\QuickSorting.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\QuickSorting\QuickSorting\obj\Debug\QuickSorting.exe
+C:\Users\Dominyk\source\repos\QuickSorting\QuickSorting\obj\Debug\QuickSorting.pdb

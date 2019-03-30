@@ -1,0 +1,3 @@
+Name = s;Surname = s;Age = 2;Height = 2;Adress = s
+Name = s;Surname = s;Age = 2;Height = 2;Adress = s
+Name = s;Surname = s;Age = 2;Height = 2;Adress = s

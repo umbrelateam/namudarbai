@@ -1,0 +1,7 @@
+C:\Users\Dominyk\source\repos\Liambda\Liambda\bin\Debug\Liambda.exe.config
+C:\Users\Dominyk\source\repos\Liambda\Liambda\bin\Debug\Liambda.exe
+C:\Users\Dominyk\source\repos\Liambda\Liambda\bin\Debug\Liambda.pdb
+C:\Users\Dominyk\source\repos\Liambda\Liambda\obj\Debug\Liambda.csprojAssemblyReference.cache
+C:\Users\Dominyk\source\repos\Liambda\Liambda\obj\Debug\Liambda.csproj.CoreCompileInputs.cache
+C:\Users\Dominyk\source\repos\Liambda\Liambda\obj\Debug\Liambda.exe
+C:\Users\Dominyk\source\repos\Liambda\Liambda\obj\Debug\Liambda.pdb

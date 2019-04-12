@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Garden_ComModelStoreContainer" CdmEntityContainer="Garden_ComEntities">
+    <EntitySetMapping Name="Communities">
+      <EntityTypeMapping TypeName="Garden_ComModel.Community">
+        <MappingFragment StoreEntitySet="Community">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="manager_id" ColumnName="manager_id" />
+          <ScalarProperty Name="city_id" ColumnName="city_id" />
+          <ScalarProperty Name="regNo" ColumnName="regNo" />
+          <ScalarProperty Name="priceForSquareMeter" ColumnName="priceForSquareMeter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="Garden_ComModel.Person">
+        <MappingFragment StoreEntitySet="People">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="city_id" ColumnName="city_id" />
+          <ScalarProperty Name="adress" ColumnName="adress" />
+          <ScalarProperty Name="phoneNo" ColumnName="phoneNo" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

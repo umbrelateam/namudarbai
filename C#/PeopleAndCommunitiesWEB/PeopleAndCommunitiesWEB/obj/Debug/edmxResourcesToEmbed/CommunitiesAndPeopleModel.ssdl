@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Garden_ComModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Community">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="128" />
+    <Property Name="adress" Type="varchar" MaxLength="128" />
+    <Property Name="manager_id" Type="int" />
+    <Property Name="city_id" Type="int" />
+    <Property Name="regNo" Type="varchar" MaxLength="128" />
+    <Property Name="priceForSquareMeter" Type="decimal" Precision="12" Scale="2" />
+  </EntityType>
+  <EntityType Name="People">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="firstName" Type="varchar" MaxLength="70" />
+    <Property Name="lastName" Type="varchar" MaxLength="70" />
+    <Property Name="city_id" Type="int" />
+    <Property Name="adress" Type="varchar" MaxLength="128" />
+    <Property Name="phoneNo" Type="varchar" MaxLength="128" />
+    <Property Name="email" Type="varchar" MaxLength="128" />
+  </EntityType>
+  <Association Name="fk_community_people">
+    <End Role="People" Type="Self.People" Multiplicity="0..1" />
+    <End Role="Community" Type="Self.Community" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="People">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="Community">
+        <PropertyRef Name="manager_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Garden_ComModelStoreContainer">
+    <EntitySet Name="Community" EntityType="Self.Community" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="People" EntityType="Self.People" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="fk_community_people" Association="Self.fk_community_people">
+      <End Role="People" EntitySet="People" />
+      <End Role="Community" EntitySet="Community" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

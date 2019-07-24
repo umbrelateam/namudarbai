@@ -12,8 +12,6 @@ namespace Roulette
     public class Roulette
     {
         User u = new User(5000);
-        Color c1 = new Color("Red",0, 50);
-        Color c2 = new Color("Black", 50, 100);
         string[] color = { "Red", "Black"};
         Random r = new Random();
         int bet = new int();
@@ -33,7 +31,7 @@ namespace Roulette
             bool even = roll % 2 == 0;
             string randomColor = color[r.Next(color.Length)];
             if ((guess == "a" && randomColor == "Red") || (guess == "b" && randomColor == "Black") || (guess == "c" && even == true)
-               || (guess == "d" && even == false) || (guess == "e" && roll == number) || (guess == "f" && roll < 51) || (guess == "g" && roll > 50))
+               || (guess == "d" && even == false) || (guess == "e" && roll < 51) || (guess == "f" && roll > 50))
             {
                 Console.WriteLine("\nRound results: {0}, {1}", randomColor, roll);
                 Console.WriteLine("\nYou won! Your rewards:" + bet * 2);
@@ -55,7 +53,7 @@ namespace Roulette
         public void TheMainMenu()
         {
             u.ShowBalance();
-            Console.WriteLine("\nChoose your bet : a.Red b.Black c.Even d.Odd e.My number f.First Half g.Second Half h.Exit");
+            Console.WriteLine("\nChoose your bet : a.Red b.Black c.Even d.Odd e.First Half f.Second Half g.Exit");
 
             guess = Console.ReadLine();
             switch (guess.ToLower())
@@ -73,25 +71,12 @@ namespace Roulette
                     Bet();
                     break;
                 case "e":
-                    Console.WriteLine("\nChoose your number between 0 and 100 : ");
-                    number = Convert.ToInt32(Console.ReadLine());
-                    while ((number > 100) || (number < 0))
-                    {
-                        Console.WriteLine("\nIncorrect number! Press any key to try again");
-                        Console.ReadKey();
-
-                        Console.WriteLine("\nChoose your number between 0 and 100 : ");
-                        number = Convert.ToInt32(Console.ReadLine());
-                    }
                     Bet();
                     break;
                 case "f":
                     Bet();
                     break;
                 case "g":
-                    Bet();
-                    break;
-                case "h":
                     Console.WriteLine("\nClosing the roulette. Have a good day!");
                     Console.ReadKey();
                     Environment.Exit(0);
@@ -101,7 +86,6 @@ namespace Roulette
                     Console.ReadKey();
                     TheMainMenu();
                     break;
-
             }
             Continue();
         }
@@ -137,14 +121,23 @@ namespace Roulette
         void Bet()
         {
             Console.WriteLine("\nHow much will you bet?");
-            bet = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                bet = Convert.ToInt32(Console.ReadLine());
+            }
+            catch
+            {
+                Console.WriteLine("\nIncorrect input! press any key to try again.");
+                Console.ReadKey();
+                Bet();
+                return;
+            }
             while (bet > u.balance)
             {
                 Console.WriteLine("\nYou dont have enough balance! Press any key to try again.");
                 Console.ReadKey();
-
-                Console.WriteLine("\nHow much will you bet?");
-                bet = Convert.ToInt32(Console.ReadLine());
+                Bet();
+                return;
             }
             TheRoulette();
         }

@@ -1,0 +1,7 @@
+C:\Users\zevan\source\repos\Roulette\Roulette\bin\Debug\Roulette.exe.config
+C:\Users\zevan\source\repos\Roulette\Roulette\bin\Debug\Roulette.exe
+C:\Users\zevan\source\repos\Roulette\Roulette\bin\Debug\Roulette.pdb
+C:\Users\zevan\source\repos\Roulette\Roulette\obj\Debug\Roulette.csprojAssemblyReference.cache
+C:\Users\zevan\source\repos\Roulette\Roulette\obj\Debug\Roulette.csproj.CoreCompileInputs.cache
+C:\Users\zevan\source\repos\Roulette\Roulette\obj\Debug\Roulette.exe
+C:\Users\zevan\source\repos\Roulette\Roulette\obj\Debug\Roulette.pdb

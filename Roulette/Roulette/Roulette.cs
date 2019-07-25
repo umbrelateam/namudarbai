@@ -6,9 +6,6 @@ using System.Threading.Tasks;
 
 namespace Roulette
 {
-    /// <summary>
-    /// Main class of the program
-    /// </summary>
     public class Roulette
     {
         User u = new User(5000);
@@ -16,7 +13,6 @@ namespace Roulette
         Random r = new Random();
         int bet = new int();
         string guess;
-        int number = new int();
 
         /// <summary>
         /// TheRoulette
@@ -34,14 +30,14 @@ namespace Roulette
                || (guess == "d" && even == false) || (guess == "e" && roll < 51) || (guess == "f" && roll > 50))
             {
                 Console.WriteLine("\nRound results: {0}, {1}", randomColor, roll);
-                Console.WriteLine("\nYou won! Your rewards:" + bet * 2);
+                Console.WriteLine("\nYou won! Your rewards: {0}", bet * 2);
                 u.balance += bet * 2;
                 u.attempts += 1;
             }
             else
             {
                 Console.WriteLine("\nRound results: {0}, {1}", randomColor, roll);
-                Console.WriteLine("\nYou lost! Your loss:" + bet);
+                Console.WriteLine("\nYou lost! Your loss: {0}", bet);
                 u.attempts += 1;
             }
         }
@@ -82,7 +78,7 @@ namespace Roulette
                     Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("\nIncorrect letter! Press any key to try again.");
+                    Console.WriteLine("\nIncorrect input! press any key to try again.");
                     Console.ReadKey();
                     TheMainMenu();
                     break;
@@ -90,6 +86,7 @@ namespace Roulette
             Continue();
         }
         /// <summary>
+        /// Continue
         /// Asks if user wants to try again
         /// Exits the program
         /// </summary>
@@ -108,13 +105,14 @@ namespace Roulette
                     Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("\nIncorrect letter! Press any key to try again.");
+                    Console.WriteLine("\nIncorrect input! press any key to try again.");
                     Console.ReadKey();
                     Continue();
                     break;
             }
         }
         /// <summary>
+        /// Bet
         /// Checks if bet is bigger than your balance
         /// Starts the roulette
         /// </summary>

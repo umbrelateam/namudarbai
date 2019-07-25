@@ -13,7 +13,7 @@ namespace Roulette
 
         public void ShowBalance()
         {
-            Console.WriteLine("Your balance is : {0} Attempts : {1}", balance, attempts);
+            Console.WriteLine("Your balance is : {0}   Attempts : {1}", balance, attempts);
         }
         public User(int u)
         {

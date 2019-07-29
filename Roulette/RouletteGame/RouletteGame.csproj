@@ -4,17 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA520ADB-32F2-4D45-B741-4A6036A52EF9}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Roulette</RootNamespace>
-    <AssemblyName>Roulette</AssemblyName>
+    <ProjectGuid>{FC760A04-4781-4D01-AFCC-CFD79B8C5EF4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RouletteGame</RootNamespace>
+    <AssemblyName>RouletteGame</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -24,7 +23,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -43,19 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="BusinessEntities\RouletteEntity.cs" />
+    <Compile Include="BusinessEntities\UserEntity.cs" />
+    <Compile Include="BusinessServices\RouletteServices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Roulette.cs" />
-    <Compile Include="User.cs" />
+    <Compile Include="UserInterface.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RouletteGame\RouletteGame.csproj">
-      <Project>{fc760a04-4781-4d01-afcc-cfd79b8c5ef4}</Project>
-      <Name>RouletteGame</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

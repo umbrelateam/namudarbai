@@ -5,3 +5,6 @@ C:\Users\zevan\source\repos\Roulette\Roulette\obj\Debug\Roulette.csprojAssemblyR
 C:\Users\zevan\source\repos\Roulette\Roulette\obj\Debug\Roulette.csproj.CoreCompileInputs.cache
 C:\Users\zevan\source\repos\Roulette\Roulette\obj\Debug\Roulette.exe
 C:\Users\zevan\source\repos\Roulette\Roulette\obj\Debug\Roulette.pdb
+C:\Users\zevan\source\repos\Roulette\Roulette\bin\Debug\RouletteGame.dll
+C:\Users\zevan\source\repos\Roulette\Roulette\bin\Debug\RouletteGame.pdb
+C:\Users\zevan\source\repos\Roulette\Roulette\obj\Debug\Roulette.csproj.CopyComplete

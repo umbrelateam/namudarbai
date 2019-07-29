@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Roulette
+namespace RouletteGame.BusinessEntities
 {
-    public class User
+    public class UserEntity
     {
         private int balance;
         public int Balance
@@ -14,6 +14,7 @@ namespace Roulette
             get { return this.balance; }
             set { this.balance = value; }
         }
+
         private int attempts;
         public int Attempts
         {
@@ -21,11 +22,7 @@ namespace Roulette
             set { this.attempts = value; }
         }
 
-        public void ShowBalance()
-        {
-            Console.WriteLine($"Your balance is : {balance}   Attempts : {attempts}");
-        }
-        public User(int b)
+        public UserEntity(int b)
         {
             balance = b;
         }

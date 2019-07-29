@@ -22,23 +22,23 @@ namespace Roulette
         /// </summary>
         void TheRoulette()
         {
-            u.balance -= bet;
+            u.Balance -= bet;
             int roll = r.Next(0, 100);
             bool even = roll % 2 == 0;
             string randomColor = color[r.Next(color.Length)];
             if ((guess == "a" && randomColor == "Red") || (guess == "b" && randomColor == "Black") || (guess == "c" && even == true)
                || (guess == "d" && even == false) || (guess == "e" && roll < 51) || (guess == "f" && roll > 50))
             {
-                Console.WriteLine("\nRound results: {0}, {1}", randomColor, roll);
-                Console.WriteLine("\nYou won! Your rewards: {0}", bet * 2);
-                u.balance += bet * 2;
-                u.attempts += 1;
+                Console.WriteLine($"\nRound results: {randomColor}, {roll}");
+                Console.WriteLine($"\nYou won! Your rewards: { bet * 2}");
+                u.Balance += bet * 2;
+                u.Attempts += 1;
             }
             else
             {
-                Console.WriteLine("\nRound results: {0}, {1}", randomColor, roll);
-                Console.WriteLine("\nYou lost! Your loss: {0}", bet);
-                u.attempts += 1;
+                Console.WriteLine($"\nRound results: {randomColor}, {roll}");
+                Console.WriteLine($"\nYou lost! Your loss: {bet}");
+                u.Attempts += 1;
             }
         }
         /// <summary>
@@ -55,20 +55,10 @@ namespace Roulette
             switch (guess.ToLower())
             {
                 case "a":
-                    Bet();
-                    break;
                 case "b":
-                    Bet();
-                    break;
                 case "c":
-                    Bet();
-                    break;
                 case "d":
-                    Bet();
-                    break;
                 case "e":
-                    Bet();
-                    break;
                 case "f":
                     Bet();
                     break;
@@ -130,7 +120,7 @@ namespace Roulette
                 Bet();
                 return;
             }
-            while (bet > u.balance)
+            while (bet > u.Balance)
             {
                 Console.WriteLine("\nYou dont have enough balance! Press any key to try again.");
                 Console.ReadKey();

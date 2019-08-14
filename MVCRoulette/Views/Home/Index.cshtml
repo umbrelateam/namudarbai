@@ -1,0 +1,36 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Main Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>Roulette</h1>
+        <h2>Main menu</h2>
+        <p class="lead"> Your balance is : </p>
+        <p class="lead"> Please pick your bet. </p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <a href="#" class="btn btn-danger btn-lg" role="button">Red</a>
+                <a href="#" class="btn btn-light btn-lg" role="button">White</a>
+                <a href="#" class="btn btn-dark btn-lg" role="button">Black</a>
+                <a href="#" class="btn btn-success btn-lg" role="button">Green</a>
+                <a href="#" class="btn btn-info btn-lg" role="button">Even</a>
+                <a href="#" class="btn btn-warning btn-lg" role="button">Odd</a>
+                <a href="#" class="btn btn-secondary btn-lg" role="button">First Half</a>
+                <a href="#" class="btn btn-primary btn-lg" role="button">Second Half</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿@model MVCRoulette.Models.Roulette
+
+@{
+    Layout = null;
+    <!--if (Session["ID"] == null)
+        {
+            Response.Redirect("~/Login/Login");
+        }-->
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bet</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+        #login-div {
+            position: absolute;
+            left: 40%;
+            top: 40%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Coin Bet</h1>
+            <p>Please make a coin bet and be sure it's lower than your balance.</p>
+        </div>
+    </div>
+    <div style="text-align:center;" id="login-div">
+        <div style="width:50%; margin: 0 auto; text-align:left;">
+            @using (Html.BeginForm("BetCheck", "BetCheck", FormMethod.Post))
+            {
+                <table style="width:100%;">
+                    <tr>
+                        <td>
+                            @Html.LabelFor(model => model.Bet)
+                        </td>
+                        <td>
+                            @Html.EditorFor(model => model.Bet)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>@Html.ValidationMessageFor(model => model.Bet)</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" name="name" value="Submit" />
+                        </td>
+                    </tr>
+                </table>
+            }
+        </div>
+    </div>
+</body>
+</html>

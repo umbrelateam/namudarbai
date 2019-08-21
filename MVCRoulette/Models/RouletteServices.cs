@@ -7,25 +7,25 @@ namespace MVCRoulette.Models
 {
     public class RouletteServices
     {
-        void TheRoulette(Roulette R, User U)
-        {
-            R.RandomColor = R.Color[R.r.Next(R.Color.Length)];
-            R.Roll = R.r.Next(0, 100);
-            R.Even = R.Roll % 2 == 0;
-            U.Balance -= R.Bet;
-            if ((R.Guess == "a" && R.RandomColor == "Red") || (R.Guess == "b" && R.RandomColor == "Black") || (R.Guess == "c" && R.RandomColor == "White") || (R.Guess == "d" && R.RandomColor == "Green") || (R.Guess == "e" && R.Even == true)
-               || (R.Guess == "f" && R.Even == false) || (R.Guess == "g" && R.Roll < 51) || (R.Guess == "h" && R.Roll > 50))
-            {
-                U.Balance += R.Bet * R.Multiplier;
-                U.Attempts += 1;
-            }
-            else
-            {
-                U.Attempts += 1;
-            }
-        }
+        //public void TheRoulette(Roulette R, Users U)
+        //{
+        //    R.RandomColor = R.Color[R.r.Next(R.Color.Length)];
+        //    R.Roll = R.r.Next(0, 100);
+        //    R.Even = R.Roll % 2 == 0;
+        //    U.Balance -= R.Bet;
+        //    if ((R.Guess == "Red" && R.RandomColor == "Red") || (R.Guess == "Black" && R.RandomColor == "Black") || (R.Guess == "White" && R.RandomColor == "White") || (R.Guess == "Green" && R.RandomColor == "Green") || (R.Guess == "Even" && R.Even == true)
+        //       || (R.Guess == "Odd" && R.Even == false) || (R.Guess == "FirstHalf" && R.Roll < 51) || (R.Guess == "SecondHalf" && R.Roll > 50))
+        //    {
+        //        U.Balance += R.Bet * R.Multiplier;
+        //        U.Attempts += 1;
+        //    }
+        //    else
+        //    {
+        //        U.Attempts += 1;
+        //    }
+        //}
 
-        void BetCheck(Roulette R, User U)
+        public void BetCheck(Roulette R, Users U)
         {
             bool tryAgain = true;
             while (tryAgain)
@@ -44,7 +44,6 @@ namespace MVCRoulette.Models
 
                 }
             }
-            TheRoulette(R, U);
         }
 
         public void MultiplierCheck(Roulette R)

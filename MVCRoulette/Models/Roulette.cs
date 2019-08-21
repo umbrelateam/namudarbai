@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace MVCRoulette.Models
 {
@@ -15,6 +17,7 @@ namespace MVCRoulette.Models
         public int Multiplier { get; set; }
 
         public Random r = new Random();
+        [Required(ErrorMessage = "You cannot bet less than 1 coin!")]
         public int Bet { get; set; }
         public string Guess { get; set; }
     }

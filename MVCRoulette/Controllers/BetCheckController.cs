@@ -18,7 +18,7 @@ namespace MVCRoulette.Controllers
         [HttpGet]
         public ActionResult BetCheck(Users userModel)
         {
-            using (Models.RouletteEntities1 db = new RouletteEntities1())
+            using (Models.RouletteEntities db = new RouletteEntities())
             {
                 //var userBalance = db.Users.
                 //if (userModel.Balance >= Session["Balance"])

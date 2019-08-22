@@ -11,19 +11,20 @@ namespace MVCRoulette.Models
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel;
     using System.ComponentModel.DataAnnotations;
-
+    using System.ComponentModel;
+    
     public partial class Users
     {
         public int UserID { get; set; }
-        [Required(ErrorMessage ="This field shouldn't be empty!")]
+        [Required(ErrorMessage = "This field shouldn't be empty!")]
         public string Username { get; set; }
         [DataType(DataType.Password)]
         [Required(ErrorMessage = "This field shouldn't be empty!")]
         public string Password { get; set; }
         public int Balance { get; set; }
         public int Attempts { get; set; }
+        public string Guess { get; set; }
         public string LoginErrorMessage { get; set; }
     }
 }

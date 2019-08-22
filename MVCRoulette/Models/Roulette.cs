@@ -19,6 +19,5 @@ namespace MVCRoulette.Models
         public Random r = new Random();
         [Required(ErrorMessage = "You cannot bet less than 1 coin!")]
         public int Bet { get; set; }
-        public string Guess { get; set; }
     }
 }

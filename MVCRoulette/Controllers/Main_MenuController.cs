@@ -10,9 +10,9 @@ namespace MVCRoulette.Controllers
     public class Main_MenuController : Controller
     {
         Users user = new Users();
-        public ActionResult Main_Menu()
+        public ActionResult MainMenu()
         {
-            using (RouletteEntities1 db = new RouletteEntities1())
+            using (RouletteEntities db = new RouletteEntities())
             {
                 return View(user);
             }
@@ -20,65 +20,65 @@ namespace MVCRoulette.Controllers
 
         [HttpPost]
         [MultipleButton(Name = "action", Argument = "Red")]
-        public ActionResult ButtonRed(Roulette roulette)
+        public ActionResult ButtonRed(Users user)
         {
-            roulette.Guess = "Red";
+            BusinessEnitites.UserServices userServices = new BusinessEnitites.UserServices();
+            user.Guess = "Red";
+            userServices.UserGuess(user);
             return RedirectToAction("Bet", "BetCheck");
         }
-
-        [HttpPost]
+        //            if (ModelState.IsValid)
+        //    {
+        //        user.Guess = "Red";
+        //        BusinessEnitites.UserServices userServices = new BusinessEnitites.UserServices();
+        //userServices.UserGuess(user);
+        //    }
+    [HttpPost]
         [MultipleButton(Name = "action", Argument = "White")]
-        public ActionResult ButtonWhite(Roulette roulette)
+        public ActionResult ButtonWhite(Users user)
         {
-            roulette.Guess = "White";
             return RedirectToAction("Bet", "BetCheck");
         }
 
         [HttpPost]
         [MultipleButton(Name = "action", Argument = "Black")]
-        public ActionResult ButtonBlack(Roulette roulette)
+        public ActionResult ButtonBlack(Users user)
         {
-            roulette.Guess = "Blakc";
             return RedirectToAction("Bet", "BetCheck");
         }
 
         [HttpPost]
         [MultipleButton(Name = "action", Argument = "Green")]
-        public ActionResult ButtonGreen(Roulette roulette)
+        public ActionResult ButtonGreen(Users user)
         {
-            roulette.Guess = "Green";
             return RedirectToAction("Bet", "BetCheck");
         }
 
         [HttpPost]
         [MultipleButton(Name = "action", Argument = "Even")]
-        public ActionResult ButtonEven(Roulette roulette)
+        public ActionResult ButtonEven(Users user)
         {
-            roulette.Guess = "Even";
             return RedirectToAction("Bet", "BetCheck");
         }
 
         [HttpPost]
         [MultipleButton(Name = "action", Argument = "Odd")]
-        public ActionResult ButtonOdd(Roulette roulette)
+        public ActionResult ButtonOdd(Users user)
         {
-            roulette.Guess = "Odd";
             return RedirectToAction("Bet", "BetCheck");
         }
 
         [HttpPost]
         [MultipleButton(Name = "action", Argument = "First Half")]
-        public ActionResult ButtonFH(Roulette roulette)
+        public ActionResult ButtonFH(Users user)
         {
-            roulette.Guess = "FirstHalf";
             return RedirectToAction("Bet", "BetCheck");
         }
 
         [HttpPost]
         [MultipleButton(Name = "action", Argument = "Second Half")]
-        public ActionResult ButtonSH(Roulette roulette)
+        public ActionResult ButtonSH(Users user)
         {
-            roulette.Guess = "SecondHalf";
             return RedirectToAction("Bet", "BetCheck");
         }
     }

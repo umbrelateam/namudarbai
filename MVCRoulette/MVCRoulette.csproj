@@ -130,6 +130,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="BusinessServices\UserServices.cs" />
     <Compile Include="Controllers\BetCheckController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\Main_MenuController.cs" />
@@ -138,29 +139,34 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Results.cs">
-      <DependentUpon>RouletteEnitityData.tt</DependentUpon>
+      <DependentUpon>RouletteEntity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Roulette.cs" />
-    <Compile Include="Models\RouletteEnitityData.Context.cs">
+    <Compile Include="Models\RouletteEntity.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>RouletteEnitityData.Context.tt</DependentUpon>
+      <DependentUpon>RouletteEntity.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\RouletteEnitityData.cs">
+    <Compile Include="Models\RouletteEntity.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>RouletteEnitityData.tt</DependentUpon>
+      <DependentUpon>RouletteEntity.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\RouletteEnitityData.Designer.cs">
+    <Compile Include="Models\RouletteEntity.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>RouletteEnitityData.edmx</DependentUpon>
+      <DependentUpon>RouletteEntity.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Models\RouletteServices.cs" />
+    <Compile Include="BusinessServices\RouletteServices.cs" />
     <Compile Include="Models\Users.cs">
-      <DependentUpon>RouletteEnitityData.tt</DependentUpon>
+      <DependentUpon>RouletteEntity.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
@@ -172,15 +178,15 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\RouletteEnitityData.Context.tt">
+    <Content Include="Models\RouletteEntity.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>RouletteEnitityData.edmx</DependentUpon>
-      <LastGenOutput>RouletteEnitityData.Context.cs</LastGenOutput>
+      <DependentUpon>RouletteEntity.edmx</DependentUpon>
+      <LastGenOutput>RouletteEntity.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\RouletteEnitityData.tt">
+    <Content Include="Models\RouletteEntity.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>RouletteEnitityData.edmx</DependentUpon>
-      <LastGenOutput>RouletteEnitityData.cs</LastGenOutput>
+      <DependentUpon>RouletteEntity.edmx</DependentUpon>
+      <LastGenOutput>RouletteEntity.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -204,13 +210,17 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <EntityDeploy Include="Models\RouletteEnitityData.edmx">
+    <EntityDeploy Include="Models\RouletteEntity.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>RouletteEnitityData.Designer.cs</LastGenOutput>
+      <LastGenOutput>RouletteEntity.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\RouletteEnitityData.edmx.diagram">
-      <DependentUpon>RouletteEnitityData.edmx</DependentUpon>
+    <Content Include="Models\RouletteEntity.edmx.diagram">
+      <DependentUpon>RouletteEntity.edmx</DependentUpon>
     </Content>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -252,10 +262,10 @@
     <Content Include="Scripts\popper.js.map" />
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
-    <Content Include="Views\Main_Menu\Main_Menu.cshtml" />
     <Content Include="Views\Results\Results.cshtml" />
     <Content Include="Views\Login\Login.cshtml" />
     <Content Include="Views\BetCheck\Bet.cshtml" />
+    <Content Include="Views\Main_Menu\MainMenu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

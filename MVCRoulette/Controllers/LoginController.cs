@@ -16,7 +16,7 @@ namespace MVCRoulette.Controllers
         [HttpPost]
         public ActionResult Authorize(Models.Users userModel)
         {
-            using (Models.RouletteEntities1 db = new Models.RouletteEntities1())
+            using (Models.RouletteEntities db = new Models.RouletteEntities())
             {
                 var userDetails = db.Users.Where(u => u.Username == userModel.Username && u.Password == userModel.Password).FirstOrDefault();
                 if (userDetails == null)
@@ -30,7 +30,7 @@ namespace MVCRoulette.Controllers
                     Session["UserID"] = userDetails.UserID;
                     Session["Balance"] = userDetails.Balance;
                     Session["Attempts"] = userDetails.Attempts;
-                    return RedirectToAction("Main_Menu", "Main_Menu");
+                    return RedirectToAction("MainMenu", "Main_Menu");
                 }
             }
         }
